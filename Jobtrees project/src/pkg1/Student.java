@@ -15,13 +15,15 @@ public class Student
 	}
 	public static void main(String[] args) 
 	{
+		
 		Student obj=new Student();
 		obj.age=25;
+		obj.display1();
+		obj.display2();
 		System.out.println(obj.age);
 		obj.roll_no=44444;
 		System.out.println(obj.roll_no);
-		obj.display1();
-		obj.display2();
+		
 	}
 			
 }

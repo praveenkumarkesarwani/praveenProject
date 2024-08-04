@@ -31,9 +31,9 @@ public class Maths1
 	   int sumresult=obj.sum(subresult,2);
 	   int subresult2=obj.sub(sumresult,2);
 	   int multiresult=obj.multi(subresult2,2);
-	   
-	   System.out.println("(((((10/2)-2)+2)-2)*2)="multiresult);
-}
+	   System.out.println("(((((10/2)-2)+2)-2)*2)="+multiresult);
+}	   
+
    
 }
 
